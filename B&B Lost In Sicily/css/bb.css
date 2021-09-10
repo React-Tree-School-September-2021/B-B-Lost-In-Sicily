@@ -85,12 +85,11 @@ body{
   border-radius: 25%;
   background-color:rgb(255, 204, 153);
 }
-.icona {
-  align-items: center;
-}
+
 .carta:hover .overlay-carta {
   opacity: 0.3;
-} */
+}
+
 /*    */
 
 
@@ -109,24 +108,25 @@ footer {
 }
 
 .contattini li {
-display: inline;
-padding-right: 16px;
+    display: inline;
+    padding-right: 16px;
+    color: white;
 }
 
 .footnav {
     font-size: 24px;
 }
-.footnav li{
-  display: inline-block;
+.footnav li {
+    display: inline-block;
 }
 
 .footnav li a {
-  display: block;
-  color: black;
-  text-align: center;
-  font-family: 'Roboto';
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .footnav li a:hover {
