@@ -1,20 +1,19 @@
 /* Navbar */
 
-ul {
+.nav {
   list-style-type: none;
-  margin: 20px;
   padding: 0;
   overflow: hidden;
   background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
-  border-radius: 10px;
+  position: fixed;
 }
 
-li {
+.nav li {
   display:inline;
   float: left;
 }
 
-li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -22,14 +21,13 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: rgb(255, 204, 102);
+.nav li a:hover {
+  background-color: rgb(217, 167, 58);
   color:rgb(255, 255, 204);
 }
 /*   */
 
 /* Homepage */
-
 
 .presentazione {
     background-image: url("../img/chris-lawton-5IHz5WhosQE-unsplash.jpg");
@@ -38,13 +36,19 @@ li a:hover {
     background-size: cover;
     text-align: center;
     color: white;
-}
+    padding-top: 60px;
+} 
 
-.presentazione h1 {
+.testo h1 {
+
     color: black;
+    font-size: 38px;
 }
 
-
+.testo p {
+    margin-top: 60px;
+    font-size: 27px;
+}
 
 /*   */
 
@@ -54,5 +58,7 @@ li a:hover {
 /* Footer */
 footer {
   background-color: rgb(153, 102, 0);
-  padding: 20px;
+  padding: 5px;
+  text-align: center;
+  color: white;
 }
