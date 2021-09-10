@@ -79,10 +79,19 @@ footer {
   color: white;
 }
 
-.contattini li {
-display: inline;
+.contattini {
+    margin-top: 20px;
+    font-size: 24px;
 }
 
+.contattini li {
+display: inline;
+padding-right: 16px;
+}
+
+.footnav {
+    font-size: 24px;
+}
 .footnav li{
   display: inline-block;
 }
