@@ -1,6 +1,10 @@
 
+.center {
+  text-align: center;
 
-h1,p,label,a,legend {
+}
+
+h1,p,label,a,legend,li {
     font-family: 'Roboto',sans-serif;
   
   }
