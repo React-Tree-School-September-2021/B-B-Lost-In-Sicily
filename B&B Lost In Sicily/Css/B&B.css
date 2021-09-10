@@ -1,4 +1,16 @@
-body {
+/* body {
   background: black;
+} */
+
+/* div {
+    background-color: blue; 
+} */
+
+.presentazione {
+    background-image: url("../img/chris-lawton-5IHz5WhosQE-unsplash.jpg");
+    background-color: lightgrey;
 }
 
+p {
+    color: white;
+}
