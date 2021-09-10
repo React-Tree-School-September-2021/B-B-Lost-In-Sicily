@@ -1,6 +1,36 @@
 
+.center {
+  text-align: center;
 
-h1,p,label,legend {
+}
+
+h1,p,label,a,legend,li {
     font-family: 'Roboto',sans-serif;
   
+  }
+  .nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
+    position: fixed;
+  }
+  
+  .nav li {
+    display:inline;
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    background-color: rgb(217, 167, 58);
+    color:rgb(255, 255, 204);
   }
