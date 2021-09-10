@@ -37,7 +37,7 @@
     text-align: center;
     color: white;
     padding-top: 60px;
-} 
+}
 
 .testo h1 {
 
@@ -58,6 +58,7 @@
 /* Footer */
 footer {
   background-color: rgb(153, 102, 0);
+  margin-top: 60px;
   padding: 5px;
   text-align: center;
   color: white;
