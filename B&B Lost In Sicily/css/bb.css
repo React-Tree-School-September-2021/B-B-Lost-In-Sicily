@@ -84,12 +84,16 @@ body{
   transition: .5s ease;
   border-radius: 25%;
   background-color:rgb(255, 204, 153);
+  z-index: 2;
 }
 
 .carta:hover .overlay-carta {
   opacity: 0.3;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3818f6f151d0836aef36f3f1b04c16e7e1dcc5d9
 /*    */
 
 
