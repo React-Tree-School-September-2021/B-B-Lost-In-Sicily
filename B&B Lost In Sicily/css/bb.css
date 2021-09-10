@@ -1,3 +1,12 @@
+/* Imp */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*   */
+
+
 /* Navbar */
 
 .nav {
@@ -35,6 +44,7 @@
     background-position: center;
     background-size: cover;
     text-align: center;
+    text-shadow: 3px 2px 10px rgb(0,0,0);
     color: white;
     padding-top: 60px;
 }
@@ -48,6 +58,7 @@
 .testo p {
     margin-top: 60px;
     font-size: 27px;
+    font-family: 'Roboto';
 }
 
 /*   */
