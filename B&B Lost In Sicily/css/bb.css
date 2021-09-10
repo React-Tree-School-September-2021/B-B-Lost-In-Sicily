@@ -68,11 +68,11 @@ body{
 /*   */
 
 /*Overlay */
-/*
-.card {
+
+.carta {
   position: relative;
 }
-.overlay-card {
+.overlay-carta {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -82,11 +82,12 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  border-radius: 25%;
+  background-color:rgb(255, 204, 153);
 }
 
-.card .overlay-card {
-  opacity: 1;
+.carta:hover .overlay-carta {
+  opacity: 0.3;
 } */
 /*    */
 
