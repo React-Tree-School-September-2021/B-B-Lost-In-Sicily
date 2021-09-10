@@ -68,7 +68,11 @@ body{
 /*   */
 
 /*Overlay */
-.overlay {
+/*
+.card {
+  position: relative;
+}
+.overlay-card {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -81,9 +85,9 @@ body{
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.card .overlay-card {
   opacity: 1;
-}
+} */
 /*    */
 
 
