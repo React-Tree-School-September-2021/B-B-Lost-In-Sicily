@@ -23,8 +23,8 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
-  color:rgb(204, 153, 0);
+  background-color: rgb(255, 204, 102);
+  color:rgb(255, 255, 204);
 }
 /*   */
 
