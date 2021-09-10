@@ -1,3 +1,12 @@
+/* Imp */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*   */
+
+
 /* Navbar */
 
 .nav {
