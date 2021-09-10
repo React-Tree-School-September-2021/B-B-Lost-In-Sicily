@@ -30,6 +30,10 @@ li a:hover {
 
 /* Homepage */
 
+.presentazione {
+    padding: 20px;
+}
+
 .presentazione p {
     background-image: url("../img/chris-lawton-5IHz5WhosQE-unsplash.jpg");
     height: 100vh;
@@ -46,5 +50,6 @@ li a:hover {
 
 /* Footer */
 footer {
-  background-color: DarkSalmon;
+  background-color: rgb(153, 102, 0);
+  padding: 20px;
 }
