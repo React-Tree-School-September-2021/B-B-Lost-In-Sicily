@@ -67,7 +67,29 @@ body{
 
 /*   */
 
+/*Overlay */
 
+.carta {
+  position: relative;
+}
+.overlay-carta {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 25%;
+  background-color:rgb(255, 204, 153);
+}
+
+.carta:hover .overlay-carta {
+  opacity: 0.3;
+} */
+/*    */
 
 
 /* Footer */
