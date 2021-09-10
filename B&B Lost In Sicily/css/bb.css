@@ -72,7 +72,8 @@ body{
 
 /* Footer */
 footer {
-  background-color: rgb(153, 102, 0);
+  /* background-color: rgb(153, 102, 0); */
+  background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
   margin-top: 60px;
   padding: 5px;
   text-align: center;
@@ -103,4 +104,10 @@ padding-right: 16px;
   font-family: 'Roboto';
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.footnav li a:hover {
+    background-color: hsl(39, 100%, 51%);
+    color:black;
+    border-radius: 30px;
 }
