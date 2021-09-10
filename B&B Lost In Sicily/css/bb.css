@@ -30,6 +30,10 @@ li a:hover {
 
 /* Homepage */
 
+.presentazione {
+    padding: 20px;
+}
+
 .presentazione p {
     background-image: url("../img/chris-lawton-5IHz5WhosQE-unsplash.jpg");
     height: 100vh;
