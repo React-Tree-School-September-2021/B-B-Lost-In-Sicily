@@ -46,5 +46,6 @@ li a:hover {
 
 /* Footer */
 footer {
-  background-color: DarkSalmon;
+  background-color: rgb(153, 102, 0);
+  padding: 20px;
 }
