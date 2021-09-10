@@ -29,7 +29,6 @@
 
 /* Homepage */
 
-
 .presentazione {
     background-image: url("../img/chris-lawton-5IHz5WhosQE-unsplash.jpg");
     height: 100vh;
@@ -37,9 +36,11 @@
     background-size: cover;
     text-align: center;
     color: white;
+    padding-top: 60px;
 } 
 
 .testo h1 {
+
     color: black;
     font-size: 38px;
 }
