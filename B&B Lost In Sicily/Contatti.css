@@ -34,3 +34,16 @@ h1,p,label,a,legend,li {
     background-color: rgb(217, 167, 58);
     color:rgb(255, 255, 204);
   }
+
+.dude {
+  width: 10%;
+  height: 10%;
+  left: 3.59%;
+  right: 91.15%;
+  top: 4.07%;
+  bottom: 89.51%;
+  }
+
+  body {
+    background-image:'Sfondo contatti.png';
+  }
