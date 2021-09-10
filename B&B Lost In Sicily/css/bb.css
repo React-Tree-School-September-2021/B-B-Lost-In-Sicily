@@ -6,6 +6,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
+  border-radius: 10px;
 }
 
 li {
