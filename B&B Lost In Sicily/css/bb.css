@@ -65,8 +65,15 @@ body{
     font-family: 'Roboto';
 }
 
-/*   */
+/* Sezione Servizi */
+.card {
+    padding: 6px;
+}
 
+.h1-servizi {
+    text-align: center;
+    margin: 20px;
+}
 /*Overlay */
 
 .carta {
