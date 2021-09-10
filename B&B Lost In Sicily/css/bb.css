@@ -1,20 +1,19 @@
 /* Navbar */
 
-ul {
+.nav {
   list-style-type: none;
-  margin: 20px;
   padding: 0;
   overflow: hidden;
   background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
-  border-radius: 10px;
+  position: fixed;
 }
 
-li {
+.nav li {
   display:inline;
   float: left;
 }
 
-li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -22,8 +21,8 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: rgb(255, 204, 102);
+.nav li a:hover {
+  background-color: rgb(217, 167, 58);
   color:rgb(255, 255, 204);
 }
 /*   */
