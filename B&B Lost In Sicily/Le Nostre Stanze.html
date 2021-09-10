@@ -1,58 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+  <head id="lenostrestanze">
     <meta charset="utf-8">
     <title>Le Nostre Stanze</title>
   </head>
-  <body>
+  <body style="background-color:brown;">
   <!--navbar-->
   <style type="text/css">
+
   .containertitle {background-color: brown;
                    display: inline-block;
-                  }
-  .containerimg   {background-color: brown;}
-  h1              {font-family: papyrus;}
+                   border-style: hidden;
+                   border-color: black;
+                   border-width:thick;
+                   padding-left: 30px;
+                   margin-right: 15px;
+                   margin-bottom: 300px;
+                   }
+  .sectionimg   {background-color: brown;
+                   border-style: solid;
+                   border-color: black;
+                   border-width:thick;}
+  .explore       {background-color: brown;
+                  display: block;
+                  float: right}
+  h1              {font-family: papyrus;
+                   margin: auto;
+                   padding-left:40%;}
   p               {font-family: papyrus;
-                   font-size: 20px;
+                   font-size: 17px;
                    color: yellow;}
+  h3              {font-family: papyrus;
+                   color:yellow;}
+
 
   </style>
 
   <div class="containertitle">
       <h1 style="color:yellow">Le nostre Stanze</h1>
-      <img src="https://wallpapercave.com/wp/wp5454629.jpg" height="30%" width="50%">
-      <p style="color:yellow">Esplora le nostre stanze, e scegli quella più adatta per la tua esperienza Toscana!</p>
-      <ul>
-        <a href="#Firenze"><li><p>Firenze<p></li></a>
-        <a href="#Pisa"><li><p>Pisa<p></li></a>
-        <a href="#Livorno"><li><p>Livorno<p></li></a>
-        <a href="#Raspadori"><li><p>Raspadori<p></li></a>
-      </ul>
-
+      <br>
+      <br>
+      <img src="https://wallpapercave.com/wp/wp5454629.jpg" height="50%" width="55%">
+      <div class="explore">
+       <p style="color:yellow; float: right;">Esplora le nostre stanze, e scegli quella più adatta per la tua esperienza Toscana!</p>
+        <ul>
+         <a href="#Firenze"><li><p>Firenze<p></li></a>
+         <a href="#Pisa"><li><p>Pisa<p></li></a>
+         <a href="#Livorno"><li><p>Livorno<p></li></a>
+         <a href="#Raspadori"><li><p>Raspadori<p></li></a>
+       </ul>
+     </div>
   </div>
+  <div class="sectionimg">
+     <div class="sectionimg">
+     <h3>Firenze</h3>
+     <img id="Firenze" src="https://tse1.mm.bing.net/th?id=OIP.wR2JbXeZj9WV8zc6opkcDgHaD4&pid=Api&P=0&w=315&h=166" alt="" width="30%" height="30%">
+     <p style="font-size:25px">La nostra stanza Firenze, la più gettonata</p><br>
+     <p style="font-size:20px">La nostra stanza più richiesta, rapporto qualità prezzo imbattibili in tutta la zona. <br>
+     Chiama per sapere prezzi e informazioni senza nessun vincolo!</p><br><br>
+     </div>
 
-  <hr>
+    <div class="sectionimg">
+     <h3>Pisa</h3>
+     <img id="Pisa"src="https://tse4.mm.bing.net/th?id=OIP.EHuEBggpx1dkh5lrlkbiwQHaFj&pid=Api&P=0&w=221&h=167" width="250px" height="239px">
+     <p style="font-size:25px">Pisa, per vivere un'avventura!</p> <br>
+     <p style="font-size:20px">La stanza più versatile del nostro assortimento, ideale per chi è di passaggio!<br>Chiama per sapere prezzi e informazioni senza nessun vincolo! </p>
+     <br>
+    </div>
+    <div class="sectionimg">
+     <h3> Livorno </h3>
+     <img id="Livorno"src="https://dhqbz5vfue3y3.cloudfront.net/fotobbsic/7166/4/a_716607112014102844959.jpg?rfh=0" alt="" height="239px">
+     <p style="font-size:25px">Livorno, per chi non ha paura di osare!</p><br>
+     <p style="font-size:20px">La stanza con la migliore vista, ideale per la tua vacanza rilassante!<br>Chiama per sapere prezzi e informazioni senza nessun vincolo! </p>
+     <br><br><br>
+    </div>
+    <div class="sectionimg">
+     <h3>Raspadori</h3>
+     <img id="Raspadori" src="https://tse3.mm.bing.net/th?id=OIP.Erd_Z-Cu31-X47iZwZ1LoQHaDw&pid=Api&P=0&w=308&h=157" height="239px" width="400px">
+     <p style="font-size:25px">Raspadori, per chi vuole il successo nel  fantacalcio!</p>
+    </div>
 
-  <div class="containerimg">
-    <img id="Firenze" src="https://tse1.mm.bing.net/th?id=OIP.wR2JbXeZj9WV8zc6opkcDgHaD4&pid=Api&P=0&w=315&h=166" alt="" width="30%" height="30%">
-    <p>La nostra stanza Firenze, la più gettonata</p><br>
-    <p style="font-size:15px"></p>
-    <hr>
-    <br>
-    <img id="Pisa"src="https://tse4.mm.bing.net/th?id=OIP.EHuEBggpx1dkh5lrlkbiwQHaFj&pid=Api&P=0&w=221&h=167" width="250px" height="239px">
-    <p>Pisa, per vivere un'avventura!</p> <br>
-    <p style="font-size:15px"></p>
-    <hr>
-    <br>
-    <img id="Livorno"src="https://dhqbz5vfue3y3.cloudfront.net/fotobbsic/7166/4/a_716607112014102844959.jpg?rfh=0" alt="" height="239px">
-    <p>Livorno, per chi non ha paura di osare!</p><br>
-    <p style="font-size:15px"></p>
-    <hr>
-    <br>
-    <img id="raspadori" src="https://tse3.mm.bing.net/th?id=OIP.Erd_Z-Cu31-X47iZwZ1LoQHaDw&pid=Api&P=0&w=308&h=157" height="239px" width="400px">
-    <p>Raspadori, per chi vuole il successo nel  fantacalcio!</p>
 
-    <hr>
   </div>
 
 
