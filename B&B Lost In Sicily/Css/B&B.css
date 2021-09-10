@@ -8,7 +8,8 @@
 
 .presentazione {
     background-image: url("../img/chris-lawton-5IHz5WhosQE-unsplash.jpg");
-    background-color: lightgrey;
+    background-position: center;
+    background-size: cover;
 }
 
 p {
