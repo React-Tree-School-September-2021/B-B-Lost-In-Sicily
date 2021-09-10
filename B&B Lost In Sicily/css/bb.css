@@ -29,6 +29,7 @@ body{
   display: block;
   color: white;
   text-align: center;
+  font-family: 'Roboto';
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -78,6 +79,19 @@ footer {
   color: white;
 }
 
-.contattini {
+.contattini li {
 display: inline;
+}
+
+.footnav li{
+  display: inline-block;
+}
+
+.footnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto';
+  padding: 14px 16px;
+  text-decoration: none;
 }
