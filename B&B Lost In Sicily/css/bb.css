@@ -70,7 +70,7 @@ body{
 
 
 /* Footer */
-footer {
+/* footer {
   background-color: rgb(153, 102, 0);
   margin-top: 60px;
   padding: 5px;
@@ -80,4 +80,12 @@ footer {
 
 .contattini {
 display: inline;
+} */
+
+.fas {
+    font-size: xx-large;
+}
+
+.fab {
+  font-size: large;
 }
