@@ -30,11 +30,8 @@ li a:hover {
 
 /* Homepage */
 
-.presentazione {
-    padding: 20px;
-}
 
-.presentazione p {
+.presentazione {
     background-image: url("../img/chris-lawton-5IHz5WhosQE-unsplash.jpg");
     height: 100vh;
     background-position: center;
@@ -42,6 +39,12 @@ li a:hover {
     text-align: center;
     color: white;
 }
+
+.presentazione h1 {
+    color: black;
+}
+
+
 
 /*   */
 
