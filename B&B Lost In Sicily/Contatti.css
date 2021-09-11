@@ -47,4 +47,7 @@ h1,p,label,a,legend,li {
   body {
     background-image:'Sfondo contatti.png';
   }
-  img {padding-top: 80px}
+  img      {padding-top: 80px}
+  .dati    {font-size: 20px}
+  .forms   {margin-top: 25px;
+            margin-bottom: 70px;}
