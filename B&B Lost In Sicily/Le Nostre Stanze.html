@@ -58,26 +58,30 @@
   .explore       {background-color: brown;
                   display: block;
                   float: right}
-  h1              {font-family: papyrus;
+  h1              {font-family: Roboto;
                    margin: auto;
-                   padding-left:40%;}
-  p               {font-family: papyrus;
+                   padding-left:35%;
+                   font-size: 60px;}
+  p               {font-family: Roboto;
                    font-size: 17px;
-                   color: yellow;
+                   color: rgb(217, 167, 58);
                    text-align: center;}
-  h3              {font-family: papyrus;
-                   color:yellow;
+  h3              {font-family: Roboto;
+                   color:rgb(217, 167, 58);
                    margin-top: -80px;
                    text-align: center;
-                   padding-top: 100px;}
+                   padding-top: 100px;
+                   font-style: italic;
+                   font-size: 35px;}
  .imgmenu          {max-width: 100%;
                    max-height: 100%;
                    border-radius: 15px;
                    margin-left: auto;
                    margin-right: auto;
                    display: block;}
-.linklist:hover    {color:darkorange;}
-.link:hover        {color:darkorange;}
+.linklist:hover    {color:yellow;}
+.link:hover        {color:yellow;}
+.link              {font-style: oblique;}
 .linklist:link     {text-decoration: none}
 .titleimg          {border-radius: 10px}
 .listanze          {margin-top: 150px;}
@@ -87,20 +91,20 @@
   <!--fine style!-->
   <!--Titolo e Immagine-->
   <div class="containertitle">
-      <h1 style="color:yellow">Le nostre Stanze</h1>
+      <h1 style="color:rgb(217, 167, 58)"><b>Le Nostre Stanze</b></h1>
       <br>
       <div class="row">
         <div class="col-lg-8">
-         <img class="titleimg"  src="https://wallpapercave.com/wp/wp5454629.jpg" height="120%" width="100%">
+         <img class="titleimg"  src="https://wallpapercave.com/wp/wp5454629.jpg" height="100%" width="100%">
         </div>
       <div class="col-lg-4">
        <div class="explore">
-          <p class="descr"style="color:yellow; float: right; font-size:25px">Esplora le nostre stanze, e scegli quella più adatta per la tua esperienza Toscana!</p>
+          <p class="descr"style="color:rgb(217, 167, 58); float: right; font-size:25px;font-style: italic;">Esplora le nostre stanze, e scegli quella più adatta per la tua esperienza Toscana!</p>
           <ul class="listanze" style="list-style-type:none">
-           <a class="linklist" href="#Firenze"><li><p class="link" style="font-size:35px">Firenze<p></li></a>
-           <a class="linklist" href="#Pisa"><li><p class="link" style="font-size:35px">Pisa<p></li></a>
-           <a class="linklist" href="#Livorno"><li><p class="link" style="font-size:35px">Livorno<p></li></a>
-           <a class="linklist" href="#Raspadori"><li><p class="link" style="font-size:35px">Raspadori<p></li></a>
+           <a class="linklist" href="#Firenze"><li><p class="link" style="font-size:35px"><b>Firenze</b><p></li></a>
+           <a class="linklist" href="#Pisa"><li><p class="link" style="font-size:35px"><b>Pisa</b><p></li></a>
+           <a class="linklist" href="#Livorno"><li><p class="link" style="font-size:35px"><b>Livorno</b><p></li></a>
+           <a class="linklist" href="#Raspadori"><li><p class="link" style="font-size:35px"><b>Raspadori</b><p></li></a>
           </ul>
         </div>
       </div>
@@ -112,10 +116,10 @@
   <div class="container">
      <div class="row">
        <div class="col-lg-6 carta">
-         <h3 id="Firenze">Firenze</h3>
+         <h3 id="Firenze"><b>Firenze</b></h3>
          <img class="imgmenu" src="https://tse1.mm.bing.net/th?id=OIP.wR2JbXeZj9WV8zc6opkcDgHaD4&pid=Api&P=0&w=315&h=166" alt="" width="450px" height="270px">
          <p style="font-size:25px"> La nostra stanza Firenze, la più gettonata</p>
-         <p style="font-size:20px">La nostra stanza più richiesta, rapporto qualità prezzo imbattibili in tutta la zona. <br>
+         <p style="font-size:20px;font-style:italic">La nostra stanza più richiesta, rapporto qualità prezzo imbattibili in tutta la zona. <br>
                                    Chiama per sapere prezzi e informazioni senza nessun vincolo!</p>
                                    <a class="card-link" href="#modal-1" data-bs-toggle="modal">
                                    <div class="overlay-carta">
@@ -126,10 +130,10 @@
 
          </div>
        <div class="col-lg-6 carta">
-       <h3 id="Pisa">Pisa</h3>
+       <h3 id="Pisa"><b>Pisa</b></h3>
        <img class="imgmenu" src="https://tse4.mm.bing.net/th?id=OIP.EHuEBggpx1dkh5lrlkbiwQHaFj&pid=Api&P=0&w=221&h=167" width="450px" height="270px">
        <p style="font-size:25px">Pisa, per vivere un'avventura!</p>
-       <p style="font-size:20px">La stanza più versatile del nostro assortimento, ideale per chi è di passaggio!<br>Chiama per sapere prezzi e informazioni senza nessun vincolo! </p>
+       <p style="font-size:20px;font-style:italic">La stanza più versatile del nostro assortimento, ideale per chi è di passaggio!<br>Chiama per sapere prezzi e informazioni senza nessun vincolo! </p>
        <a class="card-link" href="#modal-2" data-bs-toggle="modal">
        <div class="overlay-carta">
          <div> <i class="fas fa-search-plus fa-5x icona" style="color:rgb(255, 255, 102)"></i>
@@ -141,10 +145,10 @@
    <!--row2-->
    <div class="row">
       <div class="col-lg-6 carta">
-        <h3 id="Livorno"> Livorno </h3>
+        <h3 id="Livorno"> <b> Livorno </b> </h3>
         <img class="imgmenu" src="https://dhqbz5vfue3y3.cloudfront.net/fotobbsic/7166/4/a_716607112014102844959.jpg?rfh=0"  height="270px" width="450px">
         <p style="font-size:25px">Livorno, per chi non ha paura di osare!</p>
-        <p style="font-size:20px">La stanza con la migliore vista, ideale per la tua vacanza rilassante!<br>Chiama per sapere prezzi e informazioni senza nessun vincolo! </p>
+        <p style="font-size:20px;font-style:italic">La stanza con la migliore vista, ideale per la tua vacanza rilassante!<br>Chiama per sapere prezzi e informazioni senza nessun vincolo! </p>
         <a class="modal-link" href="#modal-3" data-bs-toggle="modal">
         <div class="overlay-carta">
           <div> <i class="fas fa-search-plus fa-5x" style="color:rgb(255, 255, 102)"></i>
@@ -156,9 +160,10 @@
 
       </div>
         <div class="col-lg-6 carta">
-        <h3 id="Raspadori"> Raspadori</h3>
+        <h3 id="Raspadori"> <b>Raspadori</b> </h3>
         <img class="imgmenu" src="https://tse3.mm.bing.net/th?id=OIP.Erd_Z-Cu31-X47iZwZ1LoQHaDw&pid=Api&P=0&w=308&h=157" height="270px" width="450px">
-        <p style="font-size:25px">Raspadori, per chi vuole il successo al fantacalcio!</p>
+        <p style="font-size:25px;">Raspadori, per chi vuole il successo al fantacalcio!</p>
+        <p style="font-size:20px;font-style:italic">La stanza per il fantallenatore esigente, con Sky Calcio attivato h24</p>
         <a class="modal-link" href="#modal-4" data-bs-toggle="modal">
         <div class="overlay-carta">
           <div> <i class="fas fa-search-plus fa-5x" style="color:rgb(255, 255, 102)"></i>
