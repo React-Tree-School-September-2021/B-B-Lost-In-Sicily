@@ -8,12 +8,19 @@ h1,p,label,a,legend,li {
     font-family: 'Roboto',sans-serif;
 
   }
+  .logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: -20px;
+  }
   .nav {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
     background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
     position: fixed;
+    z-index: 30;
+    max-height: 50px;
   }
 
   .nav li {
