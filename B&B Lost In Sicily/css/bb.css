@@ -92,20 +92,19 @@ top: 0px;
     background-position: left center; width: 1820px;
    
     background-size: cover;
-    width: 632px;
-    height: 1000px;
-    left: 900px;
-    top: 1000px;
-    size: 40%;
     position: absolute;
+    width: 900px;
+    height: 400px;
+    left: 900px;
+    top: 1590px;
+    
    
 }
 
 .chi_siamo{
   position: static;
- 
   height: 160px;
-  left: 0px;
+  left: 300px;
   top: 340px;
   text-align: justify;
 
