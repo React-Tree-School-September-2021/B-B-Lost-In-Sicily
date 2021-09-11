@@ -93,26 +93,31 @@ top: 0px;
    
     background-size: cover;
     position: absolute;
-    width: 900px;
-    height: 400px;
-    left: 900px;
-    top: 1590px;
+    width: 800px;
+    height: 600px;
+    left: 1000px;
+    top: 1450px;
     
    
 }
 
 .chi_siamo{
-  position: static;
+  position: absolute;
   height: 160px;
-  left: 300px;
-  top: 340px;
+ 
   text-align: justify;
 
 
 }
+
+.gg{
+ 
+  width: 60%;
+  margin: 4%;
+}
 /*Overlay */
 
-.carta {
+.carta{
   position: relative;
 }
 .overlay-carta {
