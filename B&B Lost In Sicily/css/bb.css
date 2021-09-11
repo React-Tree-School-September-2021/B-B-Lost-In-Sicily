@@ -126,12 +126,21 @@ top: 0px;
 /* Sezione Film */
 
 #sezione_film {
-    padding-top: 100px;
+    margin-bottom: 30px;
 }
 
 #sezione_film .col-3 img {
     width: 320px;
     height: 300px;
+    margin-top: -40px;
+}
+
+#sezione_film .col-3 h3 {
+    padding-top: 14px;
+}
+
+#sezione_film .col-3 p {
+    padding-top: 14px;
 }
 
 /*Overlay */
