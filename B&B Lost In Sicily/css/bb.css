@@ -78,16 +78,39 @@ body{
 /* Sezione Chi Siamo */
 
 #chi_siamo {
+  text-align: justify;
     margin-top: 30px;
+    width: 1462px;
+height: 721px;
+left: 0.5px;
+top: 0px;
+
 }
 
-#foto-gruppo {
-    background-image: url("../img/foto-gruppo2.jpg");
-    background-position: center center;
+#foto-mare {
+    background-image: url("../img/Sea.jpeg");
+    background-position: left center; width: 1820px;
+   
     background-size: cover;
+    width: 632px;
+    height: 1000px;
+    left: 900px;
+    top: 1000px;
+    size: 40%;
+    position: absolute;
+   
 }
 
+.chi_siamo{
+  position: static;
+ 
+  height: 160px;
+  left: 0px;
+  top: 340px;
+  text-align: justify;
 
+
+}
 /*Overlay */
 
 .carta {
