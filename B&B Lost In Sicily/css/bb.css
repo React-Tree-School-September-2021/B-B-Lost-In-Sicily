@@ -110,6 +110,18 @@ top: 0px;
 
 
 }
+
+/* Sezione Film */
+
+#sezione_film {
+    padding-top: 100px;
+}
+
+#sezione_film .col-3 img {
+    width: 270px;
+    height: 200px;
+}
+
 /*Overlay */
 
 .carta {
