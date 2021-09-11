@@ -18,6 +18,7 @@ body{
   overflow: hidden;
   background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
   position: fixed;
+  z-index: 30;
 }
 
 .nav li {
