@@ -73,6 +73,20 @@ body{
     text-align: center;
     margin: 20px;
 }
+
+/* Sezione Chi Siamo */
+
+#chi-siamo {
+    margin-top: 30px;
+}
+
+#foto-gruppo {
+    background-image: url("../img/foto-gruppo2.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+
 /*Overlay */
 
 .carta {
