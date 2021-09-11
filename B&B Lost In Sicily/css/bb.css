@@ -14,6 +14,7 @@ body{
 .logo {
   margin-top: 10px;
   margin-left: 20px;
+  margin-right: -20px;
 }
 
 
@@ -39,7 +40,6 @@ body{
   font-family: 'Roboto';
   padding: 14px 16px;
   text-decoration: none;
-  margin-left: -20px;
 }
 
 .nav li a:hover {
@@ -125,12 +125,21 @@ top: 0px;
 /* Sezione Film */
 
 #sezione_film {
-    padding-top: 100px;
+    margin-bottom: 30px;
 }
 
 #sezione_film .col-3 img {
     width: 320px;
     height: 300px;
+    margin-top: -40px;
+}
+
+#sezione_film .col-3 h3 {
+    padding-top: 14px;
+}
+
+#sezione_film .col-3 p {
+    padding-top: 14px;
 }
 
 /*Overlay */
