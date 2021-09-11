@@ -6,7 +6,7 @@
 
 h1,p,label,a,legend,li {
     font-family: 'Roboto',sans-serif;
-  
+
   }
   .nav {
     list-style-type: none;
@@ -15,12 +15,12 @@ h1,p,label,a,legend,li {
     background-image: linear-gradient(to right, rgb(179, 71, 0) , orange);
     position: fixed;
   }
-  
+
   .nav li {
     display:inline;
     float: left;
   }
-  
+
   .nav li a {
     display: block;
     color: white;
@@ -29,7 +29,7 @@ h1,p,label,a,legend,li {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   .nav li a:hover {
     background-color: rgb(217, 167, 58);
     color:rgb(255, 255, 204);
@@ -47,3 +47,4 @@ h1,p,label,a,legend,li {
   body {
     background-image:'Sfondo contatti.png';
   }
+  img {padding-top: 80px}
